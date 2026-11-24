@@ -9,6 +9,7 @@ anyone to use, for any purpose, with credit.
 | [`protocol/`](protocol/) | The community protocol docs, [zerospades/aosprotocol](https://github.com/zerospades/aosprotocol) (a git submodule, Apache 2.0): 0.75 itself, the extension handshake, and the extensions registered there. |
 | [`specs/`](specs/) | Extensions of our own, written in aosprotocol's style, until they are registered there. |
 | [`scripts/lsd/`](scripts/lsd/) | One lsd script per extension, no game mode in them. |
+| [`scripts/piqueserver/`](scripts/piqueserver/) | The same for piqueserver. |
 
 [`specs/README.md`](specs/README.md) lists every extension these scripts
 speak, where it is specified and which clients take it.
@@ -35,7 +36,6 @@ github.com/Detank2002/aosf"*, with a note if you changed anything.
 ## Still to come
 
 - the Player Outfit spec, [awaiting](specs/player-outfit.md) aosprotocol's
-  pull request #14;
-- piqueserver scripts for the same extensions.
+  pull request #14.
 
 Issues and pull requests are welcome.
